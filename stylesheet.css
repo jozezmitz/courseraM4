@@ -52,7 +52,7 @@ P::first-letter {
     font-style: oblique;
 } 
 img {
-  border: 1px solid #ddd;
+  border: 1px solid #f40b0b;
   border-radius: 25px;
   padding: 5px;
   width: 150px;
@@ -66,3 +66,5 @@ a:hover{
   outline: dotted;
   outline-color: antiquewhite;
 }
+:nth-child(3) {
+  background-color: rgb(0, 0, 255);
