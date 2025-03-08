@@ -1,0 +1,68 @@
+H1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    padding: 1%;
+    font-variant: small-caps;
+    background-image: linear-gradient(white, #c4fab9);
+    text-align: center;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-variant: small-caps;
+    background-image: linear-gradient(white, lightcyan);
+    padding: 1%;
+    text-decoration: underline; 
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -webkit-linear-gradient(top,lightcyan 0%, rgb(193, 206, 206)): 
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    padding: 1%;
+    font-variant: small-caps;
+    background-image: linear-gradient(white, beige);
+    text-transform:uppercase;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+p{
+  background-image: linear-gradient(white, grey); 
+  padding: 1%; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    -o-column-count: 3;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+P::first-letter {
+    color:#0b951d;
+    font-weight: bolder;
+    font-style: oblique;
+} 
+img {
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(228, 232, 234, 0.5);
+}
+
+a:hover{
+  outline: dotted;
+  outline-color: antiquewhite;
+}

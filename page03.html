@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>page 03</title>
+<style> 
+body{
+  background-image:url("photo/tulips.jpg");
+}
+
+H1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    padding: 1%;
+    font-variant: small-caps;
+    background-image: linear-gradient(white, #c4fab9);
+    text-align: center;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+p{
+  background-image: linear-gradient(white, grey); 
+  padding: 1%; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+  text-align: center;
+  margin: 0 5 5px; /* Add space between text and image */
+  width: 125px;
+  align: none;
+}
+P::first-letter {
+    color:#0b951d;
+    font-weight: bolder;
+    font-style: oblique;
+} 
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to multiple rows */
+  justify-content: center; /* Centers images horizontally */
+  gap: 15px; /* Adds spacing between items */
+}
+
+.image-container a {
+  text-align: center; /* Centers text under the image */
+  display: flex;
+  flex-direction: column; /* Stacks image and text */
+  align-items: center;
+}
+
+.image-container img{
+  width: 150px; /* Adjust image size */
+  height: auto;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+a:hover{
+  outline: dotted;
+  outline-color: antiquewhite;
+}
+</style>
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('navbar').innerHTML = data);
+    </script>
+        <main id="main-content"></main>
+    <h1>Photo PAGE!!</h1>
+    <div class="image-container">
+    <a href="photo/bend_in_the_road.jpg"><img src="photo/bend_in_the_road.jpg" alt="photo 01"><p>Photo 01</p></a>
+    <a href="photo/falling_petals.jpg"><img src="photo/falling_petals.jpg" alt="photo 02"><p>Photo 02</p></a>
+    <a href="photo/mist_over_huron_river.jpg"><img src="photo/mist_over_huron_river.jpg" alt="photo 03"><p>photo 03</p></a>
+    <a href="photo/munising.jpg"><img src="photo/munising.jpg" alt="photo 04"><p>photo 04</p></a>    
+    <a href="photo/bend_in_the_road.jpg"><img src="photo/bend_in_the_road.jpg" alt="photo 01"><p>photo 05</p></a>
+    <a href="photo/falling_petals.jpg"><img src="photo/falling_petals.jpg" alt="photo 02"><p>Photo 06</p>
+    <a href="photo/mist_over_huron_river.jpg"><img src="photo/mist_over_huron_river.jpg" alt="photo 03"><p>photo 07</p></a>
+    <a href="photo/munising.jpg"><img src="photo/munising.jpg" alt="photo 04"><p>photo 08</p></a>   
+    <a href="photo/bend_in_the_road.jpg"><img src="photo/bend_in_the_road.jpg" alt="photo 01"><p>photo 08</p></a>
+    <a href="photo/falling_petals.jpg"><img src="photo/falling_petals.jpg" alt="photo 02"><p>Photo 04</p></a>
+    <a href="photo/mist_over_huron_river.jpg"><img src="photo/mist_over_huron_river.jpg" alt="photo 03"><p>photo 04</p></a>
+    <a href="photo/munising.jpg"><img src="photo/munising.jpg" alt="photo 04"><p>photo 04</p></a>
+    </div>
+</body>
+</html>
